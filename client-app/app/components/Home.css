@@ -1,0 +1,48 @@
+.container {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
+
+.base {
+  background-color: #282828;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.base img {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  width: 60%;
+}
+
+.blur_container {
+  -webkit-backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  font-size: 12px;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
